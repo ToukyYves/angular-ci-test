@@ -10,4 +10,7 @@ import { RouterOutlet } from '@angular/router';
 })
 export class AppComponent {
   title = 'angular-ci-app';
+  sum(a: number, b: number) {
+    return a + b;
+}
 }
